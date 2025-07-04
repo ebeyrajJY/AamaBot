@@ -16,7 +16,7 @@ setup(
         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*'))),
         # If you also have a config directory with .lua or .yaml files that Cartographer needs directly from share:
         (os.path.join('share', package_name, 'config'), glob(os.path.join('config', '*.lua'))),
-        (os.path.join('share', package_name, 'config'), glob(os.path.join('config', '*.yaml'))),
+        ('share/'+ package_name + '/config', glob('config/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

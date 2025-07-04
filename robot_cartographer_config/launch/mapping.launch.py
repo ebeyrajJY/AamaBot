@@ -76,5 +76,5 @@ def generate_launch_description():
         cartographer_node,
         occupancy_grid_node,
         static_tf_publisher,
-        rviz_node,
+        #rviz_node,
     ])

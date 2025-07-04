@@ -26,10 +26,10 @@ def generate_launch_description():
             )
         ),
 
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(nav2_pkg, 'launch', 'navigation2.launch.py')
-            )
-        ),
+        #IncludeLaunchDescription(
+        #    PythonLaunchDescriptionSource(
+        #        os.path.join(nav2_pkg, 'launch', 'navigation2.launch.py')
+        #    )
+        #),
     ])
 
